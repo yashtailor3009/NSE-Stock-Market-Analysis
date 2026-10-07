@@ -1,0 +1,4 @@
+model,best_cv_roc_auc,best_parameters
+Logistic Regression,0.5278342052576201,{'model__C': 0.01}
+Random Forest,0.5199788792276601,"{'max_depth': 4, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'n_estimators': 150}"
+HistGradientBoosting,0.5213532739964954,"{'l2_regularization': 0, 'learning_rate': 0.03, 'max_iter': 100, 'max_leaf_nodes': 15}"

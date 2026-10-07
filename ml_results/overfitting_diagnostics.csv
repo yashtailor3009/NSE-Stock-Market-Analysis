@@ -1,0 +1,2 @@
+selected_model,train_roc_auc,validation_roc_auc,test_roc_auc,train_validation_gap,validation_test_gap,diagnosis,complexity_justification
+Logistic Regression,0.5386184409588435,0.5372706118779417,0.5208839635786268,0.0013478290809018079,0.01638664829931491,Potential underfitting: both training and validation ROC-AUC are weak.,Logistic Regression was selected. The model is relatively simple and uses L2 regularization with C=0.01. This limits unnecessary model complexity.
